@@ -1,0 +1,26 @@
+﻿<Window x:Class="identity_launcher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:identity_launcher"
+        xmlns:vm="clr-namespace:identity_launcher.ViewModels"
+        mc:Ignorable="d"
+        AllowsTransparency="True"
+        PreviewMouseLeftButtonDown="WindowMove"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Height="680"
+        Width="1060">
+
+    <Window.DataContext>
+        <vm:MainViewModel/>
+    </Window.DataContext>
+
+    <Border Style="{StaticResource WindowBorderStyle}">
+        <Frame Content="{Binding ContentPage}"
+               NavigationUIVisibility="Hidden"/>
+    </Border>
+</Window>

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "q3LJK4vGWUM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\andre\\source\\repos\\identity-launcher\\identity-launcher\\identity-launcher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\discordrichpresence\\1.6.1.70\\discordrichpresence.1.6.1.70.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\mvvmcross\\10.1.2\\mvvmcross.10.1.2.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\sharpvectors\\1.8.5\\sharpvectors.1.8.5.nupkg.sha512"
+  ],
+  "logs": []
+}
